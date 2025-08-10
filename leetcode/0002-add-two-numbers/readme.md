@@ -40,11 +40,9 @@ Output: [8,9,9,9,0,0,0,1]
 1. Traverse both linked lists simultaneously.
 2. At each step, add the values of the current nodes plus any carry from the previous step.
 3. Compute:
-
-- `digit = sum % 10`
-- `carry = Math.floor(sum / 10)`
-
-4. Create a new node with digit and append it to the result list.
+   - `digit = sum % 10`
+   - `carry = Math.floor(sum / 10)`
+4. Create a new node with `digit` and append it to the result list.
 5. Move to the next nodes in each list until both lists are fully processed and there’s no carry.
 
 ## 🧩 Complexity Analysis
