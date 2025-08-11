@@ -1,4 +1,4 @@
-# 0001 - Two Sum
+# 0002 - Two Sum
 
 **Level:** Medium  
 **Language:** JavaScript  
